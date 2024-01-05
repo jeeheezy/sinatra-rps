@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
+  <style>
+    .nav_bar {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
   <body>
+    <div class="nav_bar">
+      <a href="/rock">Play Rock</a>
+      <a href="/paper">Play Paper</a>
+      <a href="/scissors">Play Scissors</a>
+    </div>
 
     <%= yield %>
 
